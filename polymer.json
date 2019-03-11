@@ -1,0 +1,22 @@
+{
+  "npm": true,
+  "entrypoint": "dependencies.js",
+  "extraDependencies": [
+    "node_modules/@webcomponentsjs/**"
+  ],
+  "builds": [
+    {
+      "name": "default",
+      "bundle": true,
+      "css": {
+        "minify": true
+      },
+      "js": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      }
+    }
+  ]
+}
